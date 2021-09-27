@@ -1,9 +1,9 @@
-import { render } from "@testing-library/react";
 import React from "react";
+import ItemCount from "./ItemCount"
 
-const Item = ({greeting}) => {
-    return(
-        <h1>{greeting}</h1>
-    );
+const Item = () => {
+    return<>
+    <ItemCount/>
+    </>;
 }
 export default Item;
