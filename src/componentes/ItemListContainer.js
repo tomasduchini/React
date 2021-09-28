@@ -1,9 +1,9 @@
 import React from "react";
-import ItemCount from "./ItemCount"
+import ItemList from "./ItemList"
 
-const Item = () => {
+const App = () => {
     return<>
-    <ItemCount/>
+    <ItemList/>
     </>;
 }
-export default Item;
+export default App;
