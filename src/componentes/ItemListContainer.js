@@ -3,7 +3,7 @@ import ItemList from "./ItemList"
 
 const App = () => {
     return<>
-    <ItemList/>
+        <ItemList/>
     </>;
 }
 export default App;
